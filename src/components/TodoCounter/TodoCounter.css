@@ -1,0 +1,6 @@
+.titleCounter{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    margin-bottom: 100px;
+}
