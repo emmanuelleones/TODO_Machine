@@ -1,12 +1,12 @@
 import React from "react";
-import "./Title.css";
+import "./TitleStyles.css";
 
-const Title = (items) => {
+const Title = ({className, text}) => {
   return (
   <React.Fragment>
-    <span className={items.className}> {items.text} </span>
+    <span className={className}> {text} </span>
   </React.Fragment>
-  )
+  );
 };
 
 export { Title };

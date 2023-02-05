@@ -1,10 +1,10 @@
 import React from "react";
-import "./Button.css";
+import "./ButtonStyles.css";
 
-const Button = (items) =>{
+const Button = ({className, onClick, text}) =>{
     return(
         <React.Fragment>
-            <button className={items.className}>{items.text}</button>
+            <button className={className} onClick={onClick}> {text} </button>
         </React.Fragment>
     );
 };

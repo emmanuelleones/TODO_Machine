@@ -1,12 +1,12 @@
 import React from "react";
-import "./TodoItem.css";
+import "./TodoItemStyles.css";
 
-const TodoItem = (props) =>{
+const TodoItem = ({text}) =>{
     return(
         <React.Fragment>
             <li className="listTask">
                 <span>
-                    <p>{props.text}</p>
+                    <p>{text}</p>
                 </span>
             </li>
         </React.Fragment>
