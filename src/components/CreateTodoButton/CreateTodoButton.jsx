@@ -45,7 +45,7 @@ const CreateTodoButton = () => {
             placeholder="Hacer mi tarea de Frontend"></input>
         </div>
                                          {/* onClick={saludo} - Un expresión mas que funciona */}
-        <Button className='buttonCreateTask' onClick={()=>saludo()} text="hola"/>
+        <Button className='buttonCreateTask' onClick={()=>saludo('Hola que tal?')} text="hola"/>
       </div>
     </React.Fragment>
   );

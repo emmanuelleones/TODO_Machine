@@ -1,7 +1,7 @@
-export const saludo = () => {
-    console.log('hola')
+export const saludo = (hola) => {
+    console.log(hola)
 }
 
-export const despedida = () => {
-    console.log('Chao')
+export const despedida = (chao) => {
+    console.log(chao)
 }
